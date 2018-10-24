@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BungeeStaffChat">
+    <output-path>$PROJECT_DIR$/../../Plaugins</output-path>
+    <root id="archive" name="BungeeStaffChat.jar">
+      <element id="module-output" name="BungeeStaffChat" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/BungeeCord.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/LuckPerms-Bukkit-4.3.11.jar" />
+    </root>
+  </artifact>
+</component>
