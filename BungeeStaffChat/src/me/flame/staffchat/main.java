@@ -1,5 +1,6 @@
 package me.flame.staffchat;
 
+import me.flame.staffchat.commands.Report;
 import me.flame.staffchat.commands.StaffChat;
 import me.flame.staffchat.events.JoinGame;
 import me.flame.staffchat.events.onChat;
@@ -15,6 +16,7 @@ public class main extends Plugin {
 
         // Commands
         getProxy().getPluginManager().registerCommand(this, new StaffChat());
+        getProxy().getPluginManager().registerCommand(this, new Report());
     }
 
 
